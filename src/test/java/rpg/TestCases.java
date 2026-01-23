@@ -39,7 +39,7 @@ public class TestCases extends junit.framework.TestCase {
         // I already wrote these; this is to make sure you didn't do something
         // that would stop them from working.
         assertTrue("The getX() method should return the x location that was passed to the constructor.",
-            fixedLocation.getX() == 2);
+        fixedLocation.getX() == 2);
         assertTrue("The getY() method should return the y location that was passed to the constructor.",
             fixedLocation.getY() == 3);
         assertTrue("The getAction() method should return the action that was passed to the constructor.",
